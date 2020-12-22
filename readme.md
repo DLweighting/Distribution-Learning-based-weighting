@@ -18,16 +18,17 @@ pip install -r python_requirements.txt
 To reproduce the simulations, we recommend that you generate data and implement those baseline methods in R first, then run the Python code to implement the DLW method and get all the results. For real data, please use the dataset in folder `realdata_twins`, implement the baselines and DLW method following the same procedure.
 
 ```
-# examples to implement data generation and baseline methods in R
+# examples to implement data generation and baseline methods for simulations in R
 cd baselines_R
 mkdir data_simu
 mkdir R_result
 Rscript simu2 8 10000 0.4 10
 
-# examples to implement DLW method in python
+# examples to implement DLW method in Python
 cp -r data_simu ../DLW_Python
 cd ../DLW_Python
 python3 density_weighting.py --simu_class=simu2 --d=8 --n=10000 --sc=0.4 --times=10 >test.txt
 
+```
 
 
