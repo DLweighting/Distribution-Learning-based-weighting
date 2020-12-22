@@ -24,7 +24,7 @@ mkdir data_simu
 mkdir R_result
 Rscript simu2 8 10000 0.4 10
 
-# examples to implement DLW method in Python
+# examples to implement DLW method in python
 cp -r data_simu ../DLW_Python
 cd ../DLW_Python
 python3 density_weighting.py --simu_class=simu2 --d=8 --n=10000 --sc=0.4 --times=10 >test.txt
