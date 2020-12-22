@@ -1,7 +1,0 @@
-'gestat10': ' number of gestation weeks prior to birth '
-'nprevistq': 'quintile number of prenatal visits'
-'hydra': 'risk factor Hvdramnios/Oliqohvdramnios'
-'incervix': 'risk factor, Incompetent cervix'
-'csex': 'sex of child'
-'mpre5': 'trimester prenatal care begun, 4 is none'
-'dmar': 'married'
