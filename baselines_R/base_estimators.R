@@ -1,6 +1,4 @@
 library("MatchIt")
-# library("cem")
-# library("tcltk")
 
 base <- function(i, data_all, dim){
   ATT_unadjusted = mean(data_all[which(data_all$w==1),]$y) - mean(data_all[which(data_all$w==0),]$y)
